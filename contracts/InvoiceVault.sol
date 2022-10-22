@@ -32,7 +32,7 @@ contract InvoiceVault is ERC20,Ownable{
     function getBalToken(address _adr) public view returns(uint256){
         return balanceOf(_adr);
     }
-
+// get face value
     function getFV(address _adr, uint256 _x) public view returns(uint256){
         return IInvoice(_adr).getFace(_x);
     }
