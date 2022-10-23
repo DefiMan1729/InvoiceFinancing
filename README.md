@@ -1,4 +1,4 @@
-# Invoice (receivable) NFT project
+# Invoice (receivable) NFT Staking 
 
 This project demonstrates a basic Contract that can accept an Invoice NFT (ERC721) and mint custom tokens (ERC20) equal to the face value of the Invoice.
 
