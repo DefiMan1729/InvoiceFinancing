@@ -23,10 +23,11 @@ contract InvoiceVault{
         loan = _ERC20;
         manager = msg.sender;
     }
-    
-    function deposit (uint256 _tokenid) public{
+
+    function deposit (uint256 _tokenid) public payable{
         IInvoice_NFT(invoice).safeDeposit(manager,_tokenid);
         faceValue = IInvoice_NFT(invoice).getFaceValue(_tokenid);
         ILoan_ERC20(loan).loanMint(msg.sender,faceValue);
     }
+
 }
