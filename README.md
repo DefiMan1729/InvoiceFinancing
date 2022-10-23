@@ -1,8 +1,8 @@
-# Sample Hardhat Project
+# Invoice (receivable) NFT project
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+This project demonstrates a basic Contract that can accept an Invoice NFT (ERC721) and mint custom tokens (ERC20) equal to the face value of the Invoice.
 
-Try running some of the following tasks:
+<img width="454" alt="image" src="https://user-images.githubusercontent.com/115624087/197370615-f08b94c3-d9a8-473b-a29b-8f2aacbda8fb.png">
 
 ```shell
 npx hardhat help
