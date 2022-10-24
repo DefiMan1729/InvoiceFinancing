@@ -1,14 +1,16 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.4;
+import "@openzeppelin/contracts/token/ERC721/IERC721.sol";
+import "@openzeppelin/contracts/token/ERC20/IERC20.sol";
 
 // Interface for the Invoice that will be deposited to get loan
-interface IInvoice_NFT{
+interface IInvoice_NFT is IERC721{
   function getFaceValue(uint256 _tokenid) external returns (uint256);
   function safeDeposit(address _to, uint256 _tokenid) external;
 }
 
 // Interface for the token that the depositor will receive
-interface ILoan_ERC20{
+interface ILoan_ERC20 is IERC20{
   function loanMint(address _to,uint256 _faceValue) external;
 }
 
