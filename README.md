@@ -14,6 +14,11 @@ A business (firm), ideally wants to receive payment for all outstanding invoices
 
 A firm can decide to sell this invoice to another firm (a factor) for cash or take a working capital loan with the Invoice as collateral.
 
+How to use the code
+1. Deploy the NFT (ERC721) and Token (ERC20) contract
+2. Use the contract address of the above contracts to deploy the Vault Contract
+
+
 ```shell
 npx hardhat help
 npx hardhat test
