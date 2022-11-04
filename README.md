@@ -5,8 +5,9 @@ This project demonstrates a basic Solidity smart contract that can accept an Inv
 We will create a NFT with face value of the Invoice (eg Tax Invoice amount with GST # in India). This unique NFT will be either minted on behalf of the firm, by a virtual asset service provider (it can be self-service also). This unique NFT will represent a tokenised Account Receivable (Invoice). 
 The firm can then transfer this NFT, to another smart contarct (a vault which can lock this NFT) to receive ERC20 tokens of equivalent amount. I envisage this ERC20 token can be a wrapped ERC20 based on CBDC, thus allowing efficient SME lending vehicle for the economy. 
 
-<img width="758" alt="image" src="https://user-images.githubusercontent.com/115624087/199898617-05245232-efd8-4e35-a88f-54edc9b09979.png">
+<img width="777" alt="image" src="https://user-images.githubusercontent.com/115624087/199899403-d9186351-7e5f-462a-a575-b84488e09e3d.png">
 
+Code Mechanics
 
 <img width="462" alt="image" src="https://user-images.githubusercontent.com/115624087/197400441-466f0315-03cb-4599-b9a6-55d381489336.png">
 
