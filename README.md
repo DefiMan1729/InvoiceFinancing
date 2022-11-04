@@ -21,15 +21,12 @@ India's e-Invoice workflow
 ![image](https://user-images.githubusercontent.com/115624087/199880914-55f56ad8-f972-4b02-ba62-5a84466c5825.png)
 https://einvoice1.gst.gov.in/Documents/GST_eInvoiceSystemDetailedOverview.pdf
 
-How to use the code
-1. Deploy the NFT (ERC721) and Token (ERC20) contract
-2. Use the contract address of the above contracts to deploy the Vault Contract
 
 
 ```shell
 How to use the code
-1. Deploy the NFT (ERC721) and Token (ERC20) contract
-2. Use the contract address of the above contracts to deploy the Vault Contract
+1. Deploy the NFT (ERC721) and Token (ERC20) contracts or create your own
+2. Use the contract addresses of the above contracts to deploy the Vault Contract
 ------
 npx hardhat help
 npx hardhat test
