@@ -40,3 +40,4 @@ npx hardhat node
 npx hardhat run scripts/deploy.js
 ```
 Blog post: https://mirror.xyz/defiman1729.eth/ZbSFXVQSFgro9GYUgCyYJyhoMEJnvYZszGpqcU6e6pU
+Discord: https://discord.gg/kegnJnCZbP
