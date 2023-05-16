@@ -1,5 +1,5 @@
 # Invoice (receivable) Tokenization + NFT Staking 
-Asset tokenization is the process of converting physical assets like real estate, fine art, or commodities into digital tokens that can be traded on a blockchain. Asset tokenization enables fractional ownership of assets, making it possible for a broader range of investors to participate in the ownership and investment of high-value physical assets. In this project we have tokenized an Invoice 
+Asset tokenization is the process of converting physical assets like real estate, fine art, or commodities into digital tokens that can be traded on a blockchain. It enables fractional ownership of assets and unlocks DeFi ecosystem, making it possible for a broader range of investors to participate at improve market efficiency. In this project we have tokenized an Invoice 
 
 This project has two smart contracts
 
