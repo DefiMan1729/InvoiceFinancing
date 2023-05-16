@@ -1,18 +1,30 @@
-# Invoice (receivable) NFT Staking 
+# Invoice (receivable) Tokenization + NFT Staking 
 
-This project demonstrates a basic Solidity smart contract that can accept an Invoice NFT (ERC721) and mint custom tokens (ERC20) equal to the face value of the Invoice.
+This project has two smart contracts, 
+smart contract #1: takes the Invoice details and mints an NFT
+smart contract #2: demonstrates a basic Solidity smart contract Vault that can accept an Invoice NFT (ERC721) and mint custom tokens (ERC20) equal to the face value of the Invoice.
 
 We will create a NFT with face value of the Invoice (eg Tax Invoice amount with GST # in India). This unique NFT will be either minted on behalf of the firm, by a virtual asset service provider (it can be self-service also). This unique NFT will represent a tokenised Account Receivable (Invoice). 
 The firm can then transfer this NFT, to another smart contarct (a vault which can lock this NFT) to receive ERC20 tokens of equivalent amount. I envisage this ERC20 token can be a wrapped ERC20 based on CBDC, thus allowing efficient SME lending vehicle for the economy. 
 
-<img width="834" alt="image" src="https://user-images.githubusercontent.com/115624087/202185980-9d599072-361b-4b9b-b74d-35552e47e9f1.png">
-
 
 Code Mechanics
 
+smart contract #1 in business context:
+<p>
+<img width="558" alt="image" src="https://github.com/DefiMan1729/InvoiceFinancing/assets/115624087/5ed99443-262e-40bc-b146-b634ff53c709">
+
+
+smart contract #2 in business context (Vault):
+<p>
 <img width="462" alt="image" src="https://user-images.githubusercontent.com/115624087/197400441-466f0315-03cb-4599-b9a6-55d381489336.png">
 
 
+<p>
+extended business model
+<img width="834" alt="image" src="https://user-images.githubusercontent.com/115624087/202185980-9d599072-361b-4b9b-b74d-35552e47e9f1.png">
+<p>
+  
 ![image](https://user-images.githubusercontent.com/115624087/197400157-265d6772-3d96-468c-9dac-4f207f3c3a19.png)
 
 Background on Invoice Financing:
