@@ -1,7 +1,9 @@
 # Invoice (receivable) Tokenization + NFT Staking 
+Asset tokenization is the process of converting physical assets like real estate, fine art, or commodities into digital tokens that can be traded on a blockchain. Asset tokenization enables fractional ownership of assets, making it possible for a broader range of investors to participate in the ownership and investment of high-value physical assets. In this project we have tokenized an Invoice 
 
-This project has two smart contracts, 
-smart contract #1: takes the Invoice details and mints an NFT
+This project has two smart contracts
+
+smart contract #1: takes the Invoice details and mints an NFT <p>
 smart contract #2: demonstrates a basic Solidity smart contract Vault that can accept an Invoice NFT (ERC721) and mint custom tokens (ERC20) equal to the face value of the Invoice.
 
 We will create a NFT with face value of the Invoice (eg Tax Invoice amount with GST # in India). This unique NFT will be either minted on behalf of the firm, by a virtual asset service provider (it can be self-service also). This unique NFT will represent a tokenised Account Receivable (Invoice). 
