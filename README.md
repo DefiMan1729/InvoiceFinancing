@@ -1,5 +1,11 @@
 # Invoice (receivable) Tokenization + NFT Staking 
-Asset tokenization is the process of converting physical assets like real estate, fine art, or commodities into digital tokens that can be traded on a blockchain. It enables fractional ownership of assets and unlocks DeFi ecosystem, making it possible for a broader range of investors to participate at improve market efficiency. In this project we have tokenized an Invoice 
+**Asset tokenization** is the process of converting physical assets like real estate, fine art, or commodities into digital tokens that can be traded on a blockchain. It enables fractional ownership of assets and unlocks DeFi ecosystem, making it possible for a broader range of investors to participate at improve market efficiency. 
+<br>
+Let me take a specific example here- an Invoice.
+An invoice is a document that represents a formal request for payment from a vendor or supplier for goods or services provided (by the seller/vendor to the customer)
+It serves as a record of the transaction and is used to track accounts payable and accounts receivable. It is accounted as a current asset / accounts receivable in the vendor balance sheet, and current liabilities / accounts payable in the balance sheet of the customer.
+Invoices aren’t always paid immediately; the payments terms can typically range form 15- 60 days. We will come to this a little later.
+So, if I were to tokenize this asset (from the point of view of the vendor/supplier), I will create a digital twin token in the DLT that will represent this invoice. The Invoice will still be issued and verified and custodied traditionally.
 
 This project has two smart contracts
 
